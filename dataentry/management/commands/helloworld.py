@@ -6,4 +6,5 @@ class Command(BaseCommand):
 
     def handle(self,*args, **kwargs):
         # We write the logic
+        # testing git
         self.stdout.write("Hello World!!!")
